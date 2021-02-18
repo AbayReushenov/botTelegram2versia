@@ -1,0 +1,45 @@
+<div class="container">
+  <h1 class="brand"><span>Test</span> Web Design</h1>
+  <div class="wrapper animated bounceInLeft">
+    <div class="company-info">
+      <h3>TESTER</h3>
+      <ul>
+        <li><i class="fa fa-map"></i>Москва</li>
+        <li><i class="fa fa-road"></i>Test road</li>
+        <li><i class="fa fa-phone"></i> +7 40000 000 00</li>
+        <li><i class="fa fa-phone"></i> +7 90000 000 00</li>
+        <li><i class="fa fa-phone"></i> +7 00000 000 00</li>
+        <li><i class="fa fa-envelope"></i>test@test.com</li>
+      </ul>
+    </div>
+    <div class="contact">
+      
+      <h3>Связаться с нами</h3>
+      <form id='telegramForm' action="/telegram" method="post" class="form" id="telegramForm"
+        enctype="application/x-www-form-urlencoded">
+        <p>
+          <label>Ваше Имя</label>
+          <input type="text" name="name">
+        </p>
+
+        <p>
+          <label>Телефон</label>
+          <input type="tel" name="phone">
+        </p>
+        <p class="full">
+          <label>Ваше сообщение</label>
+          <textarea name="message" rows="5"></textarea>
+        </p>
+        <p class="full">
+          <button>Отправить</button>
+        </p>
+      </form>
+    </div>
+    <div class="success">
+      <h3>Спасибо. Ваше сообщение отправлено.</h3>
+    </div>
+    <div class="error">
+      <h3>Произошла ошибка.</h3>
+    </div>
+  </div>
+</div>
